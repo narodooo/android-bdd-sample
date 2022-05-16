@@ -22,27 +22,27 @@ Scenario: Successful Login
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#Scenario: Unsucessful Login - Invalid Email
-#    [Tags]  Login - Negative
-#    Given User open application
-#    When User navigate to login page
-#    Then User should be directed to login page
-#    When User input email address   ${invalidEmail}
-#    And User input password         ${validPassword}
-#    And User click login button
-#    Then Error message should be displayed
-#
-##---------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#
-#Scenario: Unsucessful Login - Invalid Password
-#    [Tags]  Login - Negative
-#    Given User open application
-#    When User navigate to login page
-#    Then User should be directed to login page
-#    When User input email address   ${validEmail}
-#    And User input password         ${invalidPassword}
-#    And User click login button
-#    Then Error message should be displayed
+Scenario: Unsucessful Login - Invalid Email
+    [Tags]  Login - Negative
+    Given User open application
+    When User navigate to login page
+    Then User should be directed to login page
+    When User input email address   ${invalidEmail}
+    And User input password         ${validPassword}
+    And User click login button
+    Then Error message should be displayed
+
+#---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Scenario: Unsucessful Login - Invalid Password
+    [Tags]  Login - Negative
+    Given User open application
+    When User navigate to login page
+    Then User should be directed to login page
+    When User input email address   ${validEmail}
+    And User input password         ${invalidPassword}
+    And User click login button
+    Then Error message should be displayed
 
 #---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
