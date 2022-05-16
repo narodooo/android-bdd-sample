@@ -1,5 +1,5 @@
 # HappyFresh SQA/Test Engineer Assignment
-###This android automation project is developed using:
+### This android automation project is developed using:
 - Robot Framework 5.0
 - Python 3.10.4
 - AppiumLibrary for Robot Framework 1.6.3
@@ -10,7 +10,7 @@
 - Pycharm IDE
 - Windows 11
 
-###How to run this automation project:
+### How to run this automation project:
 - _python -m robot -d result Test/testSuite.robot_
 - After executing this command, result and log can be seen in _Result_ directory
 
