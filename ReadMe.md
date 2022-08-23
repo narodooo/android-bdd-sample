@@ -1,4 +1,4 @@
-# HappyFresh SQA/Test Engineer Assignment
+# Android BDD Sample with Robot Framework
 ### This android automation project is developed using:
 - Robot Framework 5.0
 - Python 3.10.4
